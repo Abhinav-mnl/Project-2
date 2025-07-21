@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.wrapper-hero {
+  background-image: url(./hero_man1.png.jpg);
+  width: 100%;
+  height: 150vh;
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9;
+}
+
+.btn {
+  background-color: #F04E3C;
+}
+
+.writing-section {
+  text-align: left;
+  padding: 70px;
+  padding-top: 250px;
+}
+
+.writing-section .btn {
+  background-color: #F04E3C;
+  border-radius: 0px;
+}
+
+  .dark-bg{
+    background: black
+  }
+  
+  .line::after{
+    width: 60px;
+    height: 2px;
+    background: white;
+    content: "";
+    position: absolute;
+    transform: translate(-50%,-50%);
+    bottom: 65px;
+    right: -75px;
+  }
+  .line{
+    position: relative;
+    display: inline-block;
+  }
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.wrapper-2{
+  padding: 150px 70px;
+  background-color: #121212; 
+}
+.card-layout{
+  padding: 150px 70px;
+  background: #0e0e0e;
+}
+.testionials{
+  background-color: #121212; 
+ padding: 190px 70px;
+}
+.founders-text span{
+      color: #f04e3c;
+    font-size: 30px;
+    font-weight: 600;
+}
+.align-items-center {
+  align-items: center; !important;
+}
+.testimonials-top img{
+    margin-bottom: 50px;
+    width: auto;
+    display: inline-block;
+    align-items: center;
+}
+.achievement {
+  padding: 190px 70px;
+  background-color: #0e0e0e
+}
+.single-brand{
+  border: 1px solid #2e2e2e;
+    padding: 50px 0 50px;
+}
+.single-brand img{
+  margin-bottom: 30px;
+}
+.mb-30{
+  margin-bottom: 30px;
+}
+.get-start{
+  padding: 24px 70px;
+  border-radius: 0px;
+
+}
+.display-4{font-size: 50px;}
+.footer{
+  background-color: #121212;
+}
+.footer .insta-feed {
+    padding-top: 5px;
+    display: flex
+;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin: 0 -5px;}
+
+.footer .insta-feed li img {
+    width: 100%;
+  height :40px;}
+.insta-feed li{
+  width: 33.33%;
+margin-bottom: 10px;
+padding: 0 5px;}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }}
+    
+    .footer-top{
+      padding-top: 170px;
+      padding-bottom: 190px;
+      margin-right: -25%;
+    }
